@@ -50,7 +50,7 @@ All runs were executed against the same loopback "ping" using powershell "measur
 | Executabe              | ms | Ticks |Option|
 | ---------------------- | -- | ----- |----- |
 | HttpAdvancedSensor     |119 |1190968|      |
-| prtgc_httpadvanced(ST) | 51 | 516736|request/blocking|
+| prtgc_httpadvanced(ST) | 51 | 516736|reqwest/blocking|
 | prtgc_httpadvanced(MT) | 43 | 434609|Tokio/MT, Workers 3|
 | prtgc_httpadvanced(MT) | 40 | 402331|Tokio/flavor current_thread|
 

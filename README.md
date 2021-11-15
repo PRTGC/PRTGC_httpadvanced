@@ -18,17 +18,28 @@ USAGE:
 prtgc_httpadvanced.exe [FLAGS] [OPTIONS] --method `<method>`
 
 FLAGS:
+
 -h, 	--help         Prints help information
+
 -i,     --ignoressl    Ignore SSL error (Def false)
+
 -L                 	   Use PRTG Linux Creds
+
 -V,     --version      Prints version information
+
 -W                 	   Use PRTG Windows Creds
 
+
 OPTIONS:
+
 -b, 	--body `<body>`          Post body
+
 -m, 	--method `<method>`      HTTP Method (GET|POST|HEAD|OPTIONS) [default: GET]
+
 -t, 	--timeout `<timeout>`    Query timeout (Def 30 sec)
+
         --url `<url>`            URL to get
+
 
 
 
@@ -47,4 +58,5 @@ All runs were executed against the same loopback "ping" using powershell "measur
 
 
 *** Please note, testing is not yet completed and will be u updated as it becomes available...
+
 This application is provided as is, no warranty expressed or implied, use at your on peril....
